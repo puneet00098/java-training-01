@@ -35,7 +35,10 @@ public class Ratio {
 
     @Override
     public String toString() {
-        return String.format("%d%d"+numerator, denominator);
+        return "Ratio{" +
+                "numerator=" + numerator +
+                ", denominator=" + denominator +
+                '}';
     }
 
     public double value(){
